@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"unse",
+				"unset"
+			],
+			[
 				"b4table",
 				"b4:table:hover\ttable_hover"
 			],
@@ -243,7 +247,16 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 4631,
+				"buffer_size": 6718,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "persistencia.php",
+			"settings":
+			{
+				"buffer_size": 517,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -414,6 +427,7 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/DesafioPHP/produtos.json",
 		"/C/xampp/htdocs/TarefasPHP/register.php",
 		"/C/xampp/htdocs/TarefasPHP/confirmacao.php",
 		"/C/xampp/htdocs/TarefasPHP/inscricao_usuarios.php",
@@ -494,7 +508,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -508,6 +522,21 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"editar",
+			"Preço",
+			"Quantidade",
+			"Nome",
+			"value",
+			"val('php')",
+			"Preço",
+			"value=\"<?php echo",
+			"Acessórios",
+			"Preço",
+			"name",
+			"$_SESSION['produtos'][]",
+			"Nome",
+			"xxxxxxxxxxxxxxx",
+			"data",
 			"h6",
 			"6",
 			"h4",
@@ -571,15 +600,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4631,
+						"buffer_size": 6718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1551,
-								1551
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "persistencia.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
 							]
 						],
 						"settings":
@@ -590,11 +647,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "produto.php",
 					"semi_transient": false,
 					"settings":
@@ -606,8 +663,8 @@
 						"selection":
 						[
 							[
-								801,
-								801
+								25,
+								25
 							]
 						],
 						"settings":
@@ -619,7 +676,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -627,7 +684,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -664,7 +721,7 @@
 	"project": "desafio php.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

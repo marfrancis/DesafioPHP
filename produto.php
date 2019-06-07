@@ -1,6 +1,9 @@
 <?php
+// Iniciamos a sessão
 @session_start();
+// Pegamos do get o parâmetro ["produto"] que vai vir com o index desse produto no Array que está na sessão
 $posicaoDoArrayDoProduto = $_GET['produto'];
+// Criamos uma variável com o nome $produto e obtemos esse produto da sessão
 $produto = $_SESSION['produtos'][$posicaoDoArrayDoProduto]; ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -20,10 +23,14 @@ $produto = $_SESSION['produtos'][$posicaoDoArrayDoProduto]; ?>
 		<div class="jumbotron">
 			<div class="row">
 				<div class="col-12">
+					<!-- Aqui temos um botão com um código JavaScript que muda o endereço do navegador para index.php -->
 					<button onclick="window.location='index.php'" class="btn btn-info">👈 Voltar pra lista de produtos</button>
 				</div>
 			</div>
 			<div class="mb-4"></div>
+
+			<!-- Imprimimos na tela as informações do produto e sua foto -->
+
 			<div class="row">
 				<div class="col-5">
 					<img class="img-fluid" src="<?php echo $produto['Foto'] ?>" />
